@@ -140,14 +140,3 @@ This project is **open-source** and available under the **MIT License**.
 ---
 
 ⭐ If you like this project, don’t forget to **star the repository**!
-
----
-
-If you want, I can also:
-
-* Add **screenshots section**
-* Improve **SEO & Lighthouse score**
-* Convert it to **Next.js**
-* Add **contact form with EmailJS**
-
-Just say the word 😄
