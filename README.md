@@ -53,7 +53,7 @@ src/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/punit-portfolio.git
+git clone https://github.com/Git-punit/PORTFOLIO
 cd punit-portfolio
 ```
 
@@ -84,7 +84,7 @@ npm install gh-pages --save-dev
 ### 2️⃣ Update `package.json`
 
 ```json
-"homepage": "https://yourusername.github.io/punit-portfolio",
+"homepage": "https://github.com/Git-punit/PORTFOLIO",
 "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
@@ -100,7 +100,7 @@ npm run deploy
 Your portfolio will be live at:
 
 ```
-https://yourusername.github.io/punit-portfolio
+https://github.com/Git-punit/PORTFOLIO
 ```
 
 ---
