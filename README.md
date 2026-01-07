@@ -1,70 +1,153 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🚀 Punit Yadav – Developer Portfolio
 
-## Available Scripts
+A modern **dark-theme personal portfolio** built with **React** and **Framer Motion** to showcase my skills, projects, education, and achievements.
+Designed to be **fast, responsive, and deployment-ready**.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🖥️ Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* **Frontend:** React.js
+* **Styling:** CSS (Dark Theme)
+* **Animations:** Framer Motion
+* **Icons:** React Icons
+* **Deployment:** GitHub Pages
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* 🌙 Fully responsive **dark theme**
+* ⚛️ Modular **React component structure**
+* 🎥 Smooth animations using **Framer Motion**
+* 📄 **Resume download** button
+* 🔗 GitHub & LinkedIn social links
+* 🚀 One-command deployment to **GitHub Pages**
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📁 Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+src/
+│── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── About.jsx
+│   ├── Skills.jsx
+│   ├── Projects.jsx
+│   ├── Education.jsx
+│   ├── Achievements.jsx
+│   ├── Contact.jsx
+│
+│── App.js
+│── index.js
+│── index.css
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ⚙️ Installation & Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 1️⃣ Clone the Repository
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone https://github.com/yourusername/punit-portfolio.git
+cd punit-portfolio
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 2️⃣ Install Dependencies
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm install
+```
 
-## Learn More
+### 3️⃣ Start Development Server
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Runs the app on **[http://localhost:3000](http://localhost:3000)**
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🚀 Deploy to GitHub Pages
 
-### Analyzing the Bundle Size
+### 1️⃣ Install gh-pages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm install gh-pages --save-dev
+```
 
-### Making a Progressive Web App
+### 2️⃣ Update `package.json`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```json
+"homepage": "https://yourusername.github.io/punit-portfolio",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+```
 
-### Advanced Configuration
+### 3️⃣ Deploy
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+npm run deploy
+```
 
-### Deployment
+Your portfolio will be live at:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```
+https://yourusername.github.io/punit-portfolio
+```
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📄 Resume
+
+The resume is included in the project and can be downloaded directly from the portfolio.
+
+📂 Location:
+
+```
+src/resume.pdf
+```
+
+---
+
+## 📬 Contact
+
+* **Email:** [workwithpunit247@gmail.com](mailto:workwithpunit247@gmail.com)
+* **Location:** Kanpur, Uttar Pradesh, India
+* **Phone:** +91 6388078609
+
+---
+
+## 🏆 Achievements Highlight
+
+* SIH 2024 – Hardware Edition Finalist
+* HackCBS 6.0 – MLH Finalist
+* IBM Certification – Containers, Kubernetes & OpenShift
+
+---
+
+## 📜 License
+
+This project is **open-source** and available under the **MIT License**.
+
+---
+
+⭐ If you like this project, don’t forget to **star the repository**!
+
+---
+
+If you want, I can also:
+
+* Add **screenshots section**
+* Improve **SEO & Lighthouse score**
+* Convert it to **Next.js**
+* Add **contact form with EmailJS**
+
+Just say the word 😄
