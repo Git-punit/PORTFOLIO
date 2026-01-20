@@ -1,5 +1,5 @@
 
-# 🚀 Punit Yadav – Developer Portfolio
+#  Punit Yadav – Developer Portfolio
 
 A modern **dark-theme personal portfolio** built with **React** and **Framer Motion** to showcase my skills, projects, education, and achievements.
 Designed to be **fast, responsive, and deployment-ready**.
