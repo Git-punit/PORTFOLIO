@@ -109,11 +109,6 @@ https://github.com/Git-punit/PORTFOLIO
 
 The resume is included in the project and can be downloaded directly from the portfolio.
 
-📂 Location:
-
-```
-src/resume.pdf
-```
 
 ---
 
